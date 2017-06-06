@@ -15,3 +15,7 @@ def solution():
     """
     Enter your code here
     """
+    df_new =  df[['name','score']]
+    return df_new
+
+solution()
