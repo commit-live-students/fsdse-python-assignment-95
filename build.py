@@ -12,4 +12,4 @@ df = pd.DataFrame(exam_data, index=labels)
 
 
 def solution():
-    return df.loc[:,('name','score')]
+    return df.loc[:,['name','score']]
