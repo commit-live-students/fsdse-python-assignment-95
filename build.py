@@ -8,10 +8,6 @@ exam_data = {
     'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
-df = pd.DataFrame(exam_data, index=labels)
-
-
 def solution():
-    """
-    Enter your code here
-    """
+    out = pd.DataFrame(exam_data, index = labels)
+    return out[['name', 'score']]
