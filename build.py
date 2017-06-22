@@ -12,6 +12,9 @@ df = pd.DataFrame(exam_data, index=labels)
 
 
 def solution():
-    """
-    Enter your code here
-    """
+    df_sub1 = df['name']
+    df_sub2 = df['score']
+    df2 = pd.DataFrame([df_sub1,df_sub2])
+    return df
+
+solution()
