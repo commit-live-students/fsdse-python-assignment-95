@@ -15,3 +15,5 @@ def solution():
     """
     Enter your code here
     """
+    name_and_score = df[["name", "score"]]
+    return name_and_score
