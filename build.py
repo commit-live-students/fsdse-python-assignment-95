@@ -12,6 +12,6 @@ df = pd.DataFrame(exam_data, index=labels)
 
 
 def solution():
-    """
-    Enter your code here
-    """
+    df = pd.DataFrame(exam_data, index=labels)
+
+    return df[['name','score']]
